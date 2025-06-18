@@ -1,0 +1,14 @@
+{
+  "login": {
+    "title": "Login",
+    "button": "Sign In"
+  },
+  "register": {
+    "title": "Register",
+    "button": "Sign Up"
+  },
+  "forgot": {
+    "title": "Forgot Password",
+    "button": "Reset Password"
+  }
+}
