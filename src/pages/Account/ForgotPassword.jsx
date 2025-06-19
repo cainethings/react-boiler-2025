@@ -4,7 +4,7 @@ import content from './content.json';
 export default function ForgotPassword() {
   const data = content.forgot;
   return (
-    <main>
+    <main className="p-[30px]">
       <h2>{data.title}</h2>
       <button>{data.button}</button>
     </main>
