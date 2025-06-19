@@ -12,15 +12,17 @@ import './App.scss';
 export default function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/account/login" element={<Login />} />
-        <Route path="/account/register" element={<Register />} />
-        <Route path="/account/forgot" element={<ForgotPassword />} />
-      </Routes>
-      <Footer />
+      <div className="container mx-auto">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/account/login" element={<Login />} />
+          <Route path="/account/register" element={<Register />} />
+          <Route path="/account/forgot" element={<ForgotPassword />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
