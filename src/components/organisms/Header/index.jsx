@@ -1,5 +1,5 @@
 import React from 'react';
-import content from '../../common/header.json';
+import content from '../../../content/header.json';
 import './Header.scss';
 
 export default function Header() {
