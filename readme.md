@@ -106,10 +106,10 @@ Header and Footer fetch from `/common/header.json` and `/common/footer.json`.
    npm install
    ```
 
-3. Run the app:
+3. Run the app (development mode):
 
    ```bash
-   npm run dev
+   npm start
    ```
 
 4. Add your page content inside `content.json` for each page.
